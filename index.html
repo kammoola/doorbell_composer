@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozart's Doorbell Symphony Studio</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #667eea, #764ba2, #f093fb, #f5576c);
+            background-size: 400% 400%;
+            animation: colorShift 8s ease-in-out infinite;
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 15px;
+            color: #2c3e50;
+        }
+        @keyframes colorShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        .studio-wrapper {
+            background: rgba(255,255,255,0.95);
+            border: 6px ridge #8b4513;
+            border-radius: 20px;
+            padding: 25px;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 0 30px rgba(0,0,0,0.4);
+        }
+        h1 {
+            text-align: center;
+            color: #4b0082;
+            font-size: 2.7em;
+            text-shadow: 2px 2px 4px gold;
+            margin-bottom: 5px;
+        }
+        .composer-intro {
+            text-align: center;
+            font-style: italic;
+            color: #8b0000;
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        .composition-service {
+            background: linear-gradient(135deg, #ffecd2, #fcb69f);
+            border: 3px solid #cd853f;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px 0;
+            position: relative;
+        }
+        .musical-note {
+            font-size: 40px;
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .price-symphony {
+            background: #ff6b6b;
+            color: white;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 8px 0;
+        }
+        .testimonial-section {
+            background: #e8f5e8;
+            border: 3px dotted #228b22;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="studio-wrapper">
+        <h1>🎼 MOZART'S DOORBELL SYMPHONY STUDIO 🎼</h1>
+        <div class="composer-intro">
+            "Transforming mundane ding-dongs into musical masterpieces since 2024!"
+        </div>
+        
+        <div class="composition-service">
+            <div class="musical-note">🎵</div>
+            <h2>Classical Ding-Dong Deluxe</h2>
+            <p>Elevate your doorbell with a Bach-inspired composition! Features 17 different chimes in perfect harmony. Guaranteed to confuse pizza delivery drivers.</p>
+            <span class="price-symphony">$299.99</span>
+        </div>
+        
+        <div class="composition-service">
+            <div class="musical-note">🎶</div>
+            <h2>Dramatic Entrance Suite</h2>
+            <p>Nothing says "welcome" like a full orchestral arrangement! Complete with crescendo buildup and cymbal crash finale. May cause neighbors to applaud.</p>
+            <span class="price-symphony">$599.99</span>
+        </div>
+        
+        <div class="composition-service">
+            <div class="musical-note">🎼</div>
+            <h2>Minimalist Modern Chime</h2>
+            <p>For the sophisticated homeowner. One perfectly pitched note that resonates for exactly 4.7 seconds. Very avant-garde, very confusing.</p>
+            <span class="price-symphony">$899.99</span>
+        </div>
+        
+        <div class="testimonial-section">
+            <h3>🎭 Customer Reviews:</h3>
+            <p><em>"My doorbell now plays Beethoven's 9th Symphony. It takes 45 minutes, but it's worth the wait!" - Classical Carl</em></p>
+            <p><em>"Guests now come early just to hear my doorbell. Some bring lawn chairs." - Musical Martha</em></p>
+        </div>
+        
+
+    </div>
+</body>
+</html>
